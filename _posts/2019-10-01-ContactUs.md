@@ -7,7 +7,7 @@ author:     "RadioMe"
 header-img: assets/img/RadioMe-logo.png
 
 categories:
-  - ContactUs
+  - Contact Us
 ---
 
 # Key Partners
