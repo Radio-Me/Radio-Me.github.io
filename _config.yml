@@ -3,13 +3,13 @@
   # When filling this file in, below, be sure to DELETE the "#" comments - example, greeting should look like - greeting: Hello, I'm Simpol.
 
 #content for nav.html
-title: Simpol Theme
-subtitle: Focus on the writing, the content.
+title: RadioMe
+subtitle: Adaptive Radio for People with Dementia
 
 #content for index.html
   #Add your own info, deleting the comments "#". This data automatically writes to the Index page's mini, about section.
-greeting: #GREETING_GOES_HERE | default: Hello, I'm Simpol.
-logo_img: #LOGO_IMG_SRC_GOES_HERE | default: /assets/img/simpol-theme-square-writing-logo.png
+greeting: Welcome to the RadioMe Website #GREETING_GOES_HERE | default: Hello, I'm Simpol.
+logo_img: /assets/img/RadioMe-logo.png #LOGO_IMG_SRC_GOES_HERE | default: /assets/img/simpol-theme-square-writing-logo.png
 subgreeting_one: #SUBGREETING_ONE_GOES_HERE
 subgreeting_two: #SUBGREETING_TWO_GOES_HERE
 
@@ -37,21 +37,21 @@ footer_link_three_link: #FOOTER_LINK_GOES_HERE
 
 baseurl: ""
 google_tracking_id: #deletme-Google Analytics Tracking ID- UA-XXXXXXXX-X
-copyright_name: Mathson Design, LLC
+copyright_name: RadioMe project
 
 # SEO data (https://github.com/jekyll/jekyll-seo-tag)
 logo: /assets/img/simpol-favicon.png
-description: Simpol Theme is a clean, minimal website theme all about the writing, the content. Currently available for Jekyll. Perfect for blogging.
+description: This is the website for the RadioMe Project
 author:
-  name: Simpol Theme
-  email: simpol@scottmathson.com
-  twitter: simpoltheme
+  name: Dave Moffat
+  email: david.moffat@plymouth.ac.uk
+  twitter: @-
 
 social:
-  name: Simpol Theme
+  name: RadioMe Project
   links:
-    - https://twitter.com/simpoltheme
-    - https://github.com/simpol-theme
+    - https://twitter.com/-
+    - https://github.com/Radio-Me
 
 # Build settings
 permalink: pretty
