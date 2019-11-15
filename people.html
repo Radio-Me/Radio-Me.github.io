@@ -3,7 +3,7 @@ layout: page
 ---
 
 <ul>
-{% for member in site.data.members %}
+{% for member in site.data.members | sort: "name" %}
   <li>
     <a href="{{ member.url }}">
       {{ member.name }}
