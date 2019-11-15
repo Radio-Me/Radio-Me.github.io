@@ -30,8 +30,8 @@ contact-us:
     name: Contact Us
     url: https://radio-me.github.io/contact-us
 
-nav_link_three_name: Contact Us
-nav_link_three_link: https://radio-me.github.io/contact-us
+# nav_link_three_name: Contact Us
+# nav_link_three_link: https://radio-me.github.io/contact-us
 
 #content for footer.html (shown on mobile) footer navigation links
 

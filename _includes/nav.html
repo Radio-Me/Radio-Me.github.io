@@ -7,8 +7,12 @@
 	</p>
 	<p class="smaller mobile-hide">
 		{% for link in site.nav_link %}
+			{{ link }}
 			<a href="{{ link.url }}">{{ link.name }}</a> <br />
+			&bull;
+			{{ nav_link_three_name }}
 		{% endfor %}
+
 		<!-- &bull; -->
 		<!-- {% if site.nav_link_two_link %}<a href="{{ site.nav_link_two_link }}">{% else %}<a href="{{ "#" }}">{% endif %}
 		{% if site.nav_link_two_name %}{{ site.nav_link_two_name }}</a>{% else %}{{ "x" }}</a>{% endif %}
