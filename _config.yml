@@ -61,6 +61,10 @@ defaults:
 scholar:
   source: publications
   bibliography: publications.bib
+  sort_by: year, month
+  order: descending
+  group_order: descending
+
 
 # scholar:
 #   style: mla
