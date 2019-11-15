@@ -65,8 +65,8 @@ defaults:
 
 scholar:
   style: mla
-  sort_by: year
-  order: descending
+  # sort_by: year
+  # order: descending
 plugins:
 - jekyll-sitemap
 - jekyll-seo-tag
