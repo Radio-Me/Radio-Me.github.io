@@ -28,20 +28,7 @@ nav_link:
  - name: Contact Us
    url: /contact-us
 
-# nav_link_three_name: Contact Us
-# nav_link_three_link: https://radio-me.github.io/contact-us
-
-#content for footer.html (shown on mobile) footer navigation links
-
-# footer_link_one_name: #FOOTER_NAME_GOES_HERE
-# footer_link_one_link: #FOOTER_LINK_GOES_HERE
-
-# footer_link_two_name: Categories
-# footer_link_two_link: "/categories"
-
-# footer_link_three_name: #FOOTER_NAME_GOES_HERE
-# footer_link_three_link: #FOOTER_LINK_GOES_HERE
-
+   
 baseurl: ""
 google_tracking_id: #deletme-Google Analytics Tracking ID- UA-XXXXXXXX-X
 copyright_name: RadioMe project

@@ -6,20 +6,11 @@
 	<p>{% if site.subtitle %}{{ site.subtitle }}{% else %}{{ site.subtitle | default: site.github.project_tagline }}{% endif %}
 	</p>
 	<p class="smaller mobile-hide">
-		{% for link in site.nav_link %}
-			<a href="{{ link.url }}">{{ link.name }}</a> <br />
+		<ul>
+			{% for link in site.nav_link %}
+				<li> <a href="{{ link.url }}">{{ link.name }}</a></li>
 			<!-- &bull; -->
 		{% endfor %}
-
-		<!-- &bull; -->
-		<!-- {% if site.nav_link_two_link %}<a href="{{ site.nav_link_two_link }}">{% else %}<a href="{{ "#" }}">{% endif %}
-		{% if site.nav_link_two_name %}{{ site.nav_link_two_name }}</a>{% else %}{{ "x" }}</a>{% endif %}
-		<br />
-		{% if site.nav_link_three_link %}<a href="{{ site.nav_link_three_link }}">{% else %}<a href="{{ "#" }}">{% endif %}
-		{% if site.nav_link_three_name %}{{ site.nav_link_three_name }}</a>{% else %}{{ "x" }}</a>{% endif %}
-		<br />
-		{% if site.nav_link_four_link %}<a href="{{ site.nav_link_four_link }}">{% else %}<a href="{{ "#" }}">{% endif %}
-		{% if site.nav_link_four_name %}{{ site.nav_link_four_name }}</a>{% else %}{{ "x" }}</a>{% endif %} -->
-	
+		</ul>
 	</p>
 </nav>
