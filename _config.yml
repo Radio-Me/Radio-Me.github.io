@@ -28,7 +28,7 @@ nav_link:
  - name: Contact Us
    url: /contact-us
 
-   
+
 baseurl: ""
 google_tracking_id: #deletme-Google Analytics Tracking ID- UA-XXXXXXXX-X
 copyright_name: RadioMe project
@@ -59,7 +59,11 @@ defaults:
       image: true
 
 scholar:
-  style: mla
+  source: publications
+  bibliography: publications.bib
+
+# scholar:
+#   style: mla
   # sort_by: year
   # order: descending
 plugins:
