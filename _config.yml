@@ -1,6 +1,6 @@
 # Site settings
   # Note: after inputting your content, you may need to stop and restart jekyll server for changes to take effect.
-  # When filling this file in, below, be sure to DELETE the "#" comments - example, greeting should look like - greeting: Hello, I'm Simpol.
+  # When filling this file in, below, be sure to DELETE the "#" comments 
 
 #content for nav.html
 title: RadioMe
@@ -8,9 +8,9 @@ subtitle: Adaptive Radio for People with Dementia
 
 #content for index.html
   #Add your own info, deleting the comments "#". This data automatically writes to the Index page's mini, about section.
-greeting: Welcome to the RadioMe Website #GREETING_GOES_HERE | default: Hello, I'm Simpol.
-logo_img: /assets/img/RadioMe-logo.png #LOGO_IMG_SRC_GOES_HERE | default: /assets/img/simpol-theme-square-writing-logo.png
-subgreeting_one: #SUBGREETING_ONE_GOES_HERE
+greeting: RadioMe #GREETING_GOES_HERE 
+logo_img: /assets/img/RadioMe-logo.png #LOGO_IMG_SRC_GOES_HERE | default: /assets/img/placehold.png
+subgreeting_one: Personalised radio for people with dementia #SUBGREETING_ONE_GOES_HERE
 subgreeting_two: #SUBGREETING_TWO_GOES_HERE
 
 # Again: after inputting your content, you may need to stop and restart jekyll server for changes to take effect.
