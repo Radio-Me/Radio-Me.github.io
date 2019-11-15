@@ -7,16 +7,8 @@
 	</p>
 	<p class="smaller mobile-hide">
 		{% for link in site.nav_link %}
-			{{ link }}
-			<p />
-			
-			{{ link.name }} - T1
-			{{ link["name"] }} - T2
-			<p />
-
 			<a href="{{ link.url }}">{{ link.name }}</a> <br />
 			<!-- &bull; -->
-			{{ nav_link_three_name }}
 		{% endfor %}
 
 		<!-- &bull; -->
