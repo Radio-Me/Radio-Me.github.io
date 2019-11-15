@@ -45,7 +45,7 @@ description: This is the website for the RadioMe Project
 author:
   name: Dave Moffat
   email: david.moffat@plymouth.ac.uk
-  twitter: @djmoffat
+  # twitter: @djmoffat
 
 social:
   name: RadioMe Project
