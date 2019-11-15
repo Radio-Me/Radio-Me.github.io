@@ -18,10 +18,10 @@ subgreeting_two: #SUBGREETING_TWO_GOES_HERE
 #content for nav.html (shown on desktop) navigation links
 nav_link_one_name: Categories #Interdisplinary Centre for Computer Music Research, University of Plymouth 
 nav_link_one_link: "/categories"
-nav_link_two_name: 
-nav_link_two_link: 
+nav_link_two_name: Publications
+nav_link_two_link: https://radio-me.github.io/publications
 nav_link_three_name: Contact Us
-nav_link_three_link: https://radio-me.github.io/contactus/2019/10/01/ContactUs/
+nav_link_three_link: https://radio-me.github.io/contact-us
 
 #content for footer.html (shown on mobile) footer navigation links
 
@@ -63,11 +63,16 @@ defaults:
     values:
       image: true
 
+scholar:
+  style: mla
+  sort_by: year
+  order: descending
 plugins:
 - jekyll-sitemap
 - jekyll-seo-tag
 - jekyll-feed
 - jekyll-paginate
+- jekyll/scholar
 exclude:
 - Gemfile
 - Gemfile.lock
