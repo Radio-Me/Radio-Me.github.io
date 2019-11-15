@@ -7,7 +7,7 @@ author:     "RadioMe"
 header-img: assets/img/RadioMe-logo.png
 
 categories:
-  - Introdiction
+  - Introduction
 ---
 
 # What is Radio Me
