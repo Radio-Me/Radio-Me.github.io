@@ -2,7 +2,7 @@
 layout:     post
 title:      "RadioMe - The Next Generation of Radio"
 description: "We have recently released a Youtube Video"
-date:       2019-10-015 10:00:00
+date:       2019-10-15 10:00:00
 author:     "RadioMe"
 header-img: assets/img/RadioMe-logo.png
 
