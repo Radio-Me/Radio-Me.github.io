@@ -16,24 +16,29 @@ subgreeting_two: #SUBGREETING_TWO_GOES_HERE
 # Again: after inputting your content, you may need to stop and restart jekyll server for changes to take effect.
 
 #content for nav.html (shown on desktop) navigation links
-nav_link_one_name: #NAV_NAME_GOES_HERE
-nav_link_one_link: #NAV_LINK_GOES_HERE
-
-nav_link_two_name: Categories
-nav_link_two_link: "/categories"
-
-nav_link_three_name: #NAV_NAME_GOES_HERE
-nav_link_three_link: #NAV_LINK_GOES_HERE
+nav_link_one_name: Interdisplinary Centre for Computer Music Research, University of Plymouth 
+nav_link_one_link: http://cmr.soc.plymouth.ac.uk/ 
+nav_link_two_name: Cambridge Institute for Music Therapy Research, Anglia Ruskin University
+nav_link_two_link: https://aru.ac.uk/cambridge-institute-for-music-therapy-research #"/categories"
+nav_link_three_name: GIST, Computer Science, Glasgow University #NAV_NAME_GOES_HERE
+nav_link_three_link: https://www.gla.ac.uk/schools/computing/research/researchsections/gist-section/ #NAV_LINK_GOES_HERE
 
 #content for footer.html (shown on mobile) footer navigation links
-footer_link_one_name: #FOOTER_NAME_GOES_HERE
-footer_link_one_link: #FOOTER_LINK_GOES_HERE
+footer_link_one_name: Interdisplinary Centre for Computer Music Research, University of Plymouth 
+footer_link_one_link: http://cmr.soc.plymouth.ac.uk/ 
+footer_link_two_name: Cambridge Institute for Music Therapy Research, Anglia Ruskin University
+footer_link_two_link: https://aru.ac.uk/cambridge-institute-for-music-therapy-research #"/categories"
+footer_link_three_name: GIST, Computer Science, Glasgow University #NAV_NAME_GOES_HERE
+footer_link_three_link: https://www.gla.ac.uk/schools/computing/research/researchsections/gist-section/ #NAV_LINK_GOES_Here 
 
-footer_link_two_name: Categories
-footer_link_two_link: "/categories"
+# footer_link_one_name: #FOOTER_NAME_GOES_HERE
+# footer_link_one_link: #FOOTER_LINK_GOES_HERE
 
-footer_link_three_name: #FOOTER_NAME_GOES_HERE
-footer_link_three_link: #FOOTER_LINK_GOES_HERE
+# footer_link_two_name: Categories
+# footer_link_two_link: "/categories"
+
+# footer_link_three_name: #FOOTER_NAME_GOES_HERE
+# footer_link_three_link: #FOOTER_LINK_GOES_HERE
 
 baseurl: ""
 google_tracking_id: #deletme-Google Analytics Tracking ID- UA-XXXXXXXX-X
@@ -45,7 +50,7 @@ description: This is the website for the RadioMe Project
 author:
   name: Dave Moffat
   email: david.moffat@plymouth.ac.uk
-  # twitter: @djmoffat
+  twitter: djmoffat
 
 social:
   name: RadioMe Project
