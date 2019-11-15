@@ -3,8 +3,6 @@
 
 		{% for nav_link in site.nav_link %}
 			{{ link }} 
-			<p>
-				{{ link.name }}
 			<a href="{{ link.url }}">{{ link.name }}</a> &bull;
 		{% endfor %}
 		<!-- 
