@@ -6,9 +6,49 @@
 - name: Eduardo Miranda
   url: http://cmr.soc.plymouth.ac.uk/
   institution: University of Plymouth
-  position: Principal Investigator
+  position: Professor of Computer Music, Principal Investigator
 
 - name: Satvik Venkatesh
   url: http://cmr.soc.plymouth.ac.uk/
   institution: University of Plymouth
   position: PhD Student
+
+- name: Alexis Kirke
+  url: http://www.alexiskirke.com/
+  institution: University of Plymouth
+  position: Senior Research Fellow, Co-Investigator
+
+- name: Sube Banerjee
+  institution: University of Plymouth
+  url: https://www.bsms.ac.uk/about/contact-us/staff/professor-sube-banerjee.aspx
+  position: Executive Dean of the Faculty of Health, Project Co-Investigator
+
+- name: Stephen Brewster
+  institution: University of Glasgow
+  url: https://www.gla.ac.uk/schools/computing/research/researchsections/gist-section/
+  position: Professor of Human-Computer Interaction, Co-Investigator
+
+- name: Gozel Shakeri
+  institution: University of Glasgow
+  url: https://www.gla.ac.uk/schools/computing/research/researchsections/gist-section/
+  position: Postdoctoral Researcher
+
+- name: Jorg Fachner 
+  institution: Anglia Ruskin University 
+  url: https://aru.ac.uk/cambridge-institute-for-music-therapy-research
+  position: Professor for Music, Health and the Brain, Co-Investigator
+
+- name: Helen Odell-Miller 
+  institution: Anglia Ruskin University 
+  url: https://aru.ac.uk/cambridge-institute-for-music-therapy-research
+  position: Director of the Music for Health Research Centre, Co-Investigator
+
+- name: Alex Street 
+  institution: Anglia Ruskin University 
+  url: https://aru.ac.uk/cambridge-institute-for-music-therapy-research
+  position: Senior research fellow
+
+- name: Ming Hung Hsu
+  institution: Methodist Homes (MHA)
+  url: https://www.mha.org.uk/
+  position: Chief Music Therapist
