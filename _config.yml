@@ -16,10 +16,20 @@ subgreeting_two: #SUBGREETING_TWO_GOES_HERE
 # Again: after inputting your content, you may need to stop and restart jekyll server for changes to take effect.
 
 #content for nav.html (shown on desktop) navigation links
-nav_link_one_name: Categories #Interdisplinary Centre for Computer Music Research, University of Plymouth 
-nav_link_one_link: "/categories"
-nav_link_two_name: Publications
-nav_link_two_link: https://radio-me.github.io/publications
+nav_link:
+  categories: 
+    name: Categories #Interdisplinary Centre for Computer Music Research, University of Plymouth 
+    url: /categories
+  publications:
+    name: Publications
+    url: https://radio-me.github.io/publications
+  people:
+    name: People
+    url: https://radio-me.github.io/people
+contact-us:
+    name: Contact Us
+    url: https://radio-me.github.io/contact-us
+
 nav_link_three_name: Contact Us
 nav_link_three_link: https://radio-me.github.io/contact-us
 
