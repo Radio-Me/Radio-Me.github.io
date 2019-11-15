@@ -17,21 +17,17 @@ subgreeting_two: #SUBGREETING_TWO_GOES_HERE
 
 #content for nav.html (shown on desktop) navigation links
 nav_link:
-  categories: 
-    name: Categories #Interdisplinary Centre for Computer Music Research, University of Plymouth 
-    url: /categories
-  publications:
-    name: Publications
-    url: https://radio-me.github.io/publications
-  people:
-    name: People
-    url: https://radio-me.github.io/people
-contact-us:
-    name: Contact Us
-    url: https://radio-me.github.io/contact-us
+ - name: Categories #Interdisplinary Centre for Computer Music Research, University of Plymouth 
+   url: /categories
+ - name: Publications
+   url: https://radio-me.github.io/publications
+ - name: People
+   url: https://radio-me.github.io/people
+ - name: Contact Us
+   url: https://radio-me.github.io/contact-us
 
-# nav_link_three_name: Contact Us
-# nav_link_three_link: https://radio-me.github.io/contact-us
+nav_link_three_name: Contact Us
+nav_link_three_link: https://radio-me.github.io/contact-us
 
 #content for footer.html (shown on mobile) footer navigation links
 
