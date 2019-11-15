@@ -72,7 +72,7 @@ plugins:
 - jekyll-seo-tag
 - jekyll-feed
 - jekyll-paginate
-- jekyll/scholar
+- jekyll-scholar
 exclude:
 - Gemfile
 - Gemfile.lock
