@@ -1,13 +1,20 @@
 ---
 layout: default
 ---
-
+{% assign author = site.data.people[page.author] %}
 <div class="page-wrapper">
   <!-- Post Header -->
 	<h1>{{ page.title }}</h1>
-	<p class="mono smaller">Published on {{ page.date | date: "%B %-d, %Y" }} By {{ page.author }} &mdash; <a href="{{ site.baseurl }}/categories">{{ page.categories }}</a>
+	<p class="mono smaller">Published on {{ page.date | date: "%B %-d, %Y" }} By <a herf="{{ author.url }}">{{ page.author }}</a> &mdash; <a href="{{ site.baseurl }}/categories">{{ page.categories }}</a>
 	</p>
 	<hr>
+
+
+<a rel="author"
+  href="https://twitter.com/{{ author.twitter }}"
+  title="{{ author.name }}">
+    {{ author.name }}
+</a>
 
   <!-- Post Content -->
   <article>
