@@ -1,40 +1,99 @@
-# RadioMe
+# Introducing Simpol Theme
 
-This is the RadioMe project page.
+Simpol is a minimal, clean, and open source Jekyll theme for Github Pages.
 
-## Notes
-You can use the [editor on GitHub](https://github.com/Radio-Me/Radio-Me.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+>### Focus on the writing, the content.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![Screenshot](https://user-images.githubusercontent.com/178448/31042735-75abfb14-a563-11e7-9a32-d8f76384c90f.jpg)
 
-### Markdown
+- [Installation](#installation)
+- [Current features](#current-features)
+- [Credits](#credits)
+- [Resources](#resources)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Installation
 
-```markdown
-Syntax highlighted code block
+### As a Fork
 
-# Header 1
-## Header 2
-### Header 3
+1. [Fork the repo](https://github.com/scottmathson/simpol-theme#fork-destination-box)
+2. Clone down the repo with `$ git clone git@github.com:username/reponame.git`
+3. Install bundler with `$ gem install bundler`
+4. Install gems with `$ bundle install`
+5. Run Jekyll with `$ bundle exec jekyll serve`
+6. Have fun!
 
-- Bulleted
-- List
+### As a Jekyll theme gem
 
-1. Numbered
-2. List
+[![Gem Version](https://badge.fury.io/rb/simpol-jekyll-theme.svg)](https://badge.fury.io/rb/simpol-jekyll-theme)
 
-**Bold** and _Italic_ and `Code` text
+Simply run `gem install simpol-jekyll-theme` to download the latest Gem
 
-[Link](url) and ![Image](src)
+Or:
+
+1. Download the theme, [quick download link](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/scottmathson/simpol-theme/tree/master/)
+2. Install bundler with `$ gem install bundler`
+3. Install gems with `$ bundle install`
+4. Run Jekyll with `$ bundle exec jekyll serve`
+5. Have fun!
+
+### Run with Docker
+
+- Docker Installation guide can be found here: https://docs.docker.com/engine/installation
+
+You can start the site locally by browsing to the project's directory and running `docker-compose up`.
+
+You should see the following:
+
+```bash
+simpol-theme | Configuration file: /srv/jekyll/_config.yml
+simpol-theme |             Source: /srv/jekyll
+simpol-theme |        Destination: /srv/jekyll/_site
+simpol-theme |  Incremental build: enabled
+simpol-theme |       Generating...
+simpol-theme |                     done in x.xxx seconds.
+simpol-theme |  Auto-regeneration: enabled for '/srv/jekyll'
+simpol-theme |     Server address: http://0.0.0.0:4000/
+simpol-theme |   Server running... press ctrl-c to stop.
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Current Features
 
-### Jekyll Themes
+* Minimal design and feel.
+* Simple and customizable Navigation, Index, and Footer
+* *Site greeting, sub-greetings, links, logo, and more*
+* All easily setup and managed in the config file
+* Clean, light-weight, default layouts for pages and posts
+* Search engine friendly! Optimized metadata for SEO.
+* Easy, site-wide Google Analytics setup/integration
+* Post categories and archive page
+* Social sharing for Twitter, Facebook, and email on all posts.
+* Sitemap, XML Feed, and 404 Page
+* Single, yet powerful and light-weight CSS Stylesheet
+* **Simple, like a website should be.**
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Radio-Me/Radio-Me.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Credits
 
-### Support or Contact
+Simpol Theme is designed, developed, and maintained by Scott Mathson, Mathson Design Co.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The clean design and feel is inspired by other minimal themes and blogs out there.
+
+[Scott on GitHub](https://github.com/scottmathson) | [Scott on Twitter](https://twitter.com/scottmathson)
+
+## Resources
+
+Check out these blog posts for help in getting started blogging with Simpol Theme. Within the posts are even more resources to help you.
+
+* [Adding New Posts, Simpol Blogging](https://simpoltheme.com/tips/tricks/2017/04/16/writing-new-post/)
+* [Markdown Overview, Simpol Blogging](https://simpoltheme.com/tips/tricks/2017/04/15/blogging-in-markdown-overview/)
+* [Deploy Jekyll to GitHub Pages](https://jekyllrb.com/docs/github-pages/)
+
+
+---
+
+## License
+
+Copyright (c) 2017 Mathson Design, LLC and Scott Mathson
+
+Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
